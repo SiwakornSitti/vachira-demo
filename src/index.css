@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: currentColor;
+}
+
+.block {
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: #f6f6f6;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.col-md-4 {
+  float: none;
+}
+
+.col-xs-3 {
+  padding: 0;
+}
+
+.tableEx {
+  height: 80vh;
+  /*background-color: #C1C6A0;*/
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.tableEx-header {
+  min-height:150px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius: 8px;
+  margin-left: -9px;
+  margin-right: -9px;
+}
+
+.tableEx-header-title {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex:1;
+  /*background-color:#858968;*/
+  height:150px;
+  color:white;
+  border-radius: 0 8px 0 0;
+}
+
+.tableEx-header-display {
+  display:flex;
+  flex:1;
+  overflow:hidden;
+  position:relative;
+  height: 150px;
+  border-radius: 8px 0 0 0;
+}
+
+.tableEx-who {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#f6f6f6;
+  font-size:16px;
+  padding-top:9px;
+  padding-bottom:9px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.hi-light {
+  background-color: #2f8383;
+  color: white;
+}
